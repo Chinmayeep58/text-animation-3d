@@ -1,0 +1,39 @@
+.overlay-item-container {
+  width: 12rem; /* w-48 */
+  border-radius: 0.375rem; /* rounded-md */
+  overflow: hidden;
+  transition: opacity 1s ease-in-out;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.overlay-item-content {
+  background-color: rgba(255, 255, 255, 0.5); /* bg-white bg-opacity-50 */
+  backdrop-filter: blur(10px); /* backdrop-blur-lg */
+  font-size: 0.75rem; /* text-xs */
+  padding: 0.5rem; /* p-2 */
+  width: 100%;
+}
+
+.overlay-item-title {
+  font-weight: bold;
+}
+
+.overlay-item-description {
+  margin-top: 0.25rem;
+}
+
+.overlay-item-button {
+  transition: background-color 0.5s ease-in-out;
+  padding: 0.5rem 1rem; /* px-4 py-2 */
+  font-weight: bold;
+  color: white;
+  width: 100%;
+  font-size: 0.75rem; /* text-xs */
+}
+
+.overlay-item-button:hover {
+  opacity: 0.5; /* hover:bg-opacity-50 */
+}
